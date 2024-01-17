@@ -1,0 +1,228 @@
+/*font-family: 'Alegreya Sans', sans-serif;*/
+
+body{
+    font-family:'Alegreya Sans', sans-serif;
+    font-size: 17px;
+}
+
+header{
+    margin: 0.5rem 1rem 2rem 1rem;
+    
+}
+section{
+    margin-bottom:3.5rem;
+}
+
+@media (min-width:992px) {
+    .right-part-menu{
+        display:flex;
+        justify-content: end;
+    }
+    .undreline-arrow{
+        background-image: url('images/arrow.png');
+        background-repeat: no-repeat;
+        background-position:-15px 105%;
+        background-size: 87%;
+    }
+}
+.navbar{
+    background-color: white;
+    padding:1rem;
+    margin-bottom:2rem;
+}
+.navbar-brand{
+    font-size: 17px;
+}
+.about-us-h2{
+    background-image: url('images/shorter-arrow.png');
+    background-repeat: no-repeat;
+    background-position:-15px 104%;
+    background-size: 25%;
+}
+
+.about-us-text-background{
+    background-color: rgba(212, 211, 211, 0.911);
+    width:90%;
+    padding: 0.5rem;
+    margin:0.5rem;
+}
+.about-us-background{
+    padding-top:0.5rem;
+    background-image: url('images/background-foto.jpg');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.about-us-text{
+    font-size:20px;
+}
+.about-us-img-text-styling{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-us-img{
+    max-width:200px;
+    max-height:auto;
+}
+.text{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.contacts-h2{
+    background-image: url('images/arrow.png');
+    background-repeat: no-repeat;
+    background-position:-15px 104%;
+    background-size: 38%;
+}
+@media (min-width:400px){
+    .about-us-h2{
+        background-image: url('images/shorter-arrow.png');
+        background-repeat: no-repeat;
+        background-position:-15px 104%;
+        background-size: 19%;
+    }
+    .contacts-h2{
+        background-image: url('images/arrow.png');
+        background-repeat: no-repeat;
+        background-position:-15px 104%;
+        background-size: 30%;
+    }
+}
+@media (min-width:576px){
+    .about-us-h2{
+        background-image: url('images/shorter-arrow.png');
+        background-repeat: no-repeat;
+        background-position:-15px 104%;
+        background-size: 20%;
+    }
+    .contacts-h2{
+        background-image: url('images/arrow.png');
+        background-repeat: no-repeat;
+        background-position:-15px 104%;
+        background-size: 28%;
+    }
+    .about-us-img{
+        max-width:400px;
+        max-height:auto;
+    }
+}
+@media (min-width:768px) {
+    .about-us-h2{
+        background-image: url('images/shorter-arrow.png');
+        background-repeat: no-repeat;
+        background-position:-15px 104%;
+        background-size: 15%;
+    }
+    .contacts-h2{
+        background-image: url('images/arrow.png');
+        background-repeat: no-repeat;
+        background-position:-15px 104%;
+        background-size: 22%;
+    }
+    .about-us-background{
+        background-image: url('images/background-foto.jpg');
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+    .about-us-text-background{
+       width:80%;
+       margin: 3rem 4rem;
+    }
+    .about-us-img-text-styling{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom:2rem;
+    }
+    .about-us-styling-reverse{
+        flex-direction: row-reverse;
+    }
+    .about-us-img{
+        max-width:300px;
+        max-height:auto;
+        margin-right:0.5rem;
+    }
+    
+    .navbar-brand{
+        font-size: 22px;
+    }
+    header{
+        margin: 1rem 1rem 2rem 1rem;
+        
+    }
+    body{
+        font-size: 20px;
+    }
+    .about-us-text{
+        font-size:23px;
+        margin: 2rem 4rem;
+    }
+}
+.arrow-down{
+    margin-top:1rem;
+    height:40px;
+    width:auto;
+    border-radius: 10%;
+}
+@media (min-width:992px) {
+    .about-us-h2{
+        background-image: url('images/shorter-arrow.png');
+        background-repeat: no-repeat;
+        background-position:-15px 102%;
+        background-size: 10%;
+    }
+    .contacts-h2{
+        background-image: url('images/arrow.png');
+        background-repeat: no-repeat;
+        background-position:-15px 104%;
+        background-size: 15%;
+    }
+    .nav-link{
+        font-size: 22px;
+    }
+    .about-us-text{
+        font-size:30px;
+        margin: 3rem 5rem;
+    }
+    .about-us-text-background{
+        width:80%;
+    }
+    .about-us-img{
+        max-width:400px;
+        max-height:auto;
+        margin-right:1rem;
+    }
+    .about-us-img-reverse{
+        margin-right:0;
+        margin-left:1rem;
+    }
+    .arrow-down{
+        margin-top:1rem;
+        height:70px;
+        width:auto;
+        border-radius: 10%;
+    }
+}
+
+
+
+.icon-image{
+    width:20px;
+    height:auto;
+}
+.contacts-links{
+    color:black;
+    text-decoration: none;
+}
+.contacts-links:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    padding:1rem;
+    background-color: rgba(212, 211, 211);
+}
