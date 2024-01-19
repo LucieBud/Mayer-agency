@@ -12,8 +12,15 @@ header{
 section{
     margin-bottom:3.5rem;
 }
+.space-for-sticky-menu{
+    position: relative;
+    top: -250px;
+}
 
 @media (min-width:992px) {
+    .space-for-sticky-menu{
+        top: -120px;
+    }
     .right-part-menu{
         display:flex;
         justify-content: end;
@@ -22,7 +29,7 @@ section{
         background-image: url('images/arrow.png');
         background-repeat: no-repeat;
         background-position:-15px 105%;
-        background-size: 87%;
+        background-size: 75%;
     }
 }
 .navbar{

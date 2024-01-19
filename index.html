@@ -19,24 +19,31 @@
 
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">+420 555 444 333</a>
+          <div class="mb-3">
+              <img class="icon-image pe-2" src="images/icon-phone.png" alt="telefonní číslo">
+              <span><a class="navbar-brand contacts-links" href="tel:+420555444333">+420 555 444 333</a></span>
+          </div>
+         
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 undreline-arrow">
               <li class="nav-item">
-                <a class="nav-link" href="#about-us">O nás</a>
+                <a class="nav-link" href="#about-us" id="about-us-en">O nás</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#reference">Reference</a>
+                <a class="nav-link" href="#reference" id="reference-en">Reference</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contacts">Kontakty</a>
+                <a class="nav-link" href="#contacts" id="contacts-en">Kontakty</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><img src="images/english-flag.jpg" width="40px" height="auto" alt="switch to english language"></a>
-            </li>
+                <button class="nav-link" id="switch-button"><img src="images/english-flag.jpg" id="switch-button-img" width="40px" height="auto" alt="switch to english language"></button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" id="switch-button-czech"><img src="images/czech-flag.png" id="switch-button-img-czech" width="40px" height="auto" alt="switch to czech language"></button>
+              </li>
             </div>
             
         </div>
@@ -46,13 +53,13 @@
         <div class="d-flex justify-content-center">
             <img src="images/logo.png" alt="logo Mayer agency s.r.o." width="60%" height="auto">
         </div>
-        <div id="about-us" ></div>
     </header>
     <article>
+        <div class="space-for-sticky-menu" id="about-us"></div>
         <section class="about-us">
             <div class="about-us-background d-flex justify-content-center">
                 <div class="about-us-text-background">
-                    <div class="about-us-text">
+                    <div class="about-us-text" id="about-us-text-en">
                         Hledáte spolehlivou cestu, jak posílit vaše podnikání a udržet krok s požadavky trhu? 
                     </div>
                     <div class="d-flex justify-content-center">
@@ -62,31 +69,31 @@
             </div>
         </section>
         <section>
-            <h2 class="about-us-h2">O nás</h2>
-            <p class="text">
+            <h2 class="about-us-h2" id="about-us-h2-en">O nás</h2>
+            <p class="text" id="text-1-en">
                 Znáte ten pocit, kdy vám chybí klíčoví zaměstnanci a výroba nebo logistika stojí? 
             </p>
-            <p class="text">Představujeme Mayer agency s.r.o., agenturu, která je výsledkem unikátního spojení sil dvou zkušených agentur v oblasti lidských zdrojů. Jsme připraveni stát se vaším strategickým partnerem v oblasti personálních služeb pro sklady a výrobu. Díky naší agentuře už nebudete muset trávit drahocenný čas hledáním kvalifikovaných pracovníků. My to uděláme za vás!
+            <p class="text" id="text-2-en">Představujeme Mayer agency s.r.o., agenturu, která je výsledkem unikátního spojení sil dvou zkušených agentur v oblasti lidských zdrojů. Jsme připraveni stát se vaším strategickým partnerem v oblasti personálních služeb pro sklady a výrobu. Díky naší agentuře už nebudete muset trávit drahocenný čas hledáním kvalifikovaných pracovníků. My to uděláme za vás!
             </p>
             <div class="about-us-img-text-styling">
                 <img class="about-us-img img-fluid p-1" src="images/foto1.jpg" alt="Mayer agency vám dokáže najít kvalifikované pracovníky.">
-                <p class="text">Naše služby jsou šité na míru vašim potřebám. Mayer agency s.r.o. není jen obyčejná pracovní         agentura. Jsme tým odborníků, kteří rozumí vašemu odvětví a vědí, jak nalézt ty pravé lidi pro vaše specifické potřeby. Naši kandidáti jsou pečlivě vybíráni a připraveni se stát součástí vašeho týmu, ať už potřebujete posílit obsazenost v sezónních špičkách nebo hledáte dlouhodobé řešení pro vaše personální zdroje.
+                <p class="text" id="text-3-en">Naše služby jsou šité na míru vašim potřebám. Mayer agency s.r.o. není jen obyčejná pracovní agentura. Jsme tým odborníků, kteří rozumí vašemu odvětví a vědí, jak nalézt ty pravé lidi pro vaše specifické potřeby. Naši kandidáti jsou pečlivě vybíráni a připraveni se stát součástí vašeho týmu, ať už potřebujete posílit obsazenost v sezónních špičkách nebo hledáte dlouhodobé řešení pro vaše personální zdroje.
                 </p>
             </div>
             <div class="about-us-img-text-styling about-us-styling-reverse">
                 <img class="about-us-img about-us-img-reverse img-fluid p-1" src="images/foto2.jpg" alt="Umíme posílit obsazenost pracovních sil v sezónních špičkách.">
-                <p class="text"> Představte si, že vaše sklady a výrobní linky jsou provozovány týmem motivovaných a kvalifikovaných pracovníků, kteří jsou připraveni přispět k růstu vaší společnosti. S Mayer agency s.r.o. to není jen sen. Naši klienti hlásí zvýšení produktivity, snížení fluktuace zaměstnanců a vylepšení celkového pracovního prostředí. Spokojený zaměstnanec znamená spokojeného zákazníka, a právě to je naším cílem.
+                <p class="text" id="text-4-en"> Představte si, že vaše sklady a výrobní linky jsou provozovány týmem motivovaných a kvalifikovaných pracovníků, kteří jsou připraveni přispět k růstu vaší společnosti. S Mayer agency s.r.o. to není jen sen. Naši klienti hlásí zvýšení produktivity, snížení fluktuace zaměstnanců a vylepšení celkového pracovního prostředí. Spokojený zaměstnanec znamená spokojeného zákazníka, a právě to je naším cílem.
                 </p>
             </div>
             <div class="about-us-img-text-styling">
                 <img class="about-us-img img-fluid p-1" src="images/foto3.jpg" alt="Poskytujeme personální služby pro sklady a výrobu.">
                 
-                <p class="text">Nenechte vaše podnikání stagnovat kvůli nedostatku pracovní síly. Kontaktujte Mayer agency s.r.o. ještě dnes a společně najdeme řešení přizpůsobené vašim potřebám. Pojďme společně vytvořit silný základ pro vaši společnost s týmem, na který se můžete spolehnout. Zavolejte nám nebo nám pošlete e-mail a domluvte si nezávaznou konzultaci. Uvidíte, že investice do správných lidí se vám mnohonásobně vyplatí. S Mayer agency s.r.o. máte budoucnost vašeho podnikání ve skvělých rukou.
+                <p class="text" id="text-5-en">Nenechte vaše podnikání stagnovat kvůli nedostatku pracovní síly. Kontaktujte Mayer agency s.r.o. ještě dnes a společně najdeme řešení přizpůsobené vašim potřebám. Pojďme společně vytvořit silný základ pro vaši společnost s týmem, na který se můžete spolehnout. Zavolejte nám nebo nám pošlete e-mail a domluvte si nezávaznou konzultaci. Uvidíte, že investice do správných lidí se vám mnohonásobně vyplatí. S Mayer agency s.r.o. máte budoucnost vašeho podnikání ve skvělých rukou.
                 </p>
-                <div id="reference"></div>
+              
             </div>
         </section>
-
+        <div class="space-for-sticky-menu" id="reference"></div>
         <section class="reference">
           
             <div id="carouselExample" class="carousel slide">
@@ -109,12 +116,14 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
-                <div id="contacts"></div>
+                
               </div>
               
         </section>
+
+        <div class="space-for-sticky-menu" id="contacts"></div>
         <section class="contacts mb-5">
-            <h2 class="contacts-h2">Kontakty</h2>
+            <h2 class="contacts-h2" id="contacts-h2-en">Kontakty</h2>
             <div>
                 <div class="mb-3">
                     <img class="icon-image pe-2" src="images/icon-phone.png" alt="telefonní číslo">
@@ -122,7 +131,7 @@
                 </div>
                 <div class="mb-3">
                     <img class="icon-image pe-2" src="images/icon-email.png" alt="e-mailová adresa">
-                    <span><a class="contacts-links" href="mailto:mayer@mayer.cz">mayer@mayer.cz</a></span>
+                    <span><a class="contacts-links" href="mailto:mayer@mayer.cz">mayeragency@email.cz</a></span>
                 </div>
                 <div class="mb-3">
                     <img class="icon-image pe-2" src="images/icon-address.png" alt="adresa sídla firmy">
@@ -151,5 +160,6 @@
           }
         });
     </script>
+    <script src="javascript.js"></script>
 </body>
 </html>
