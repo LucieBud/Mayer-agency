@@ -33,21 +33,6 @@ section{
     width:110px;
     height:25px;
 }
-@media (min-width:992px) {
-    .space-for-sticky-menu{
-        top: -120px;
-    }
-    .right-part-menu{
-        display:flex;
-        justify-content: end;
-    }
-    .undreline-arrow{
-        background-image: url('images/arrow.png');
-        background-repeat: no-repeat;
-        background-position:-15px 105%;
-        background-size: 75%;
-    }
-}
 .navbar{
     background-color: white;
     padding:1rem;
@@ -98,6 +83,34 @@ section{
     background-repeat: no-repeat;
     background-position:-15px 104%;
     background-size: 38%;
+}
+.arrow-down{
+    margin-top:0.25rem;
+    height:40px;
+    width:auto;
+    border-radius: 10%;
+}
+.icon-image{
+    width:20px;
+    height:auto;
+}
+.contacts-links{
+    color:black;
+    text-decoration: none;
+}
+.contacts-links:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    padding:1rem;
+    background-color: rgb(212, 211, 211);
+}
+
+@media (min-width:325px){
+    .arrow-down{
+        margin-top:1rem;
+    }
 }
 @media (min-width:400px){
     .about-us-h2{
@@ -182,7 +195,10 @@ section{
         max-height:auto;
         margin-right:0.5rem;
     }
-    
+    .about-us-img-reverse{
+        margin-right:0;
+        margin-left:1rem;
+    }
     .navbar-brand{
         font-size: 22px;
     }
@@ -202,18 +218,22 @@ section{
         height:auto;
     }
 }
-.arrow-down{
-    margin-top:0.25rem;
-    height:40px;
-    width:auto;
-    border-radius: 10%;
-}
-@media (min-width:325px){
-    .arrow-down{
-        margin-top:1rem;
-    }
-}
+
+
 @media (min-width:992px) {
+    .space-for-sticky-menu{
+        top: -120px;
+    }
+    .right-part-menu{
+        display:flex;
+        justify-content: end;
+    }
+    .undreline-arrow{
+        background-image: url('images/arrow.png');
+        background-repeat: no-repeat;
+        background-position:-15px 105%;
+        background-size: 75%;
+    }
     .about-us-h2{
         background-image: url('images/shorter-arrow.png');
         background-repeat: no-repeat;
@@ -241,10 +261,7 @@ section{
         max-height:auto;
         margin-right:1rem;
     }
-    .about-us-img-reverse{
-        margin-right:0;
-        margin-left:1rem;
-    }
+    
     .arrow-down{
         margin-top:1rem;
         height:70px;
@@ -268,19 +285,3 @@ section{
 }
 
 
-.icon-image{
-    width:20px;
-    height:auto;
-}
-.contacts-links{
-    color:black;
-    text-decoration: none;
-}
-.contacts-links:hover{
-    text-decoration: underline;
-}
-
-.footer{
-    padding:1rem;
-    background-color: rgb(212, 211, 211);
-}
